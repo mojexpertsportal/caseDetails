@@ -1,47 +1,39 @@
 {
-      
-      "caseID"  :   1,
-      "caseDate" :  "02-09-2019", 
-      "caseType" : "FINANCE",
-      "courtName" : "HIGH",
-      "judicialDepartmentName" : "HEAD",
-      "regulationsOfTheProsecutor" :"TAX",
-      "regulationsOfTheDefendant" : "TAX",
-"minutesOfMeetings" : "TAX",
-"caseSummery": "TAX Summery",
-"caseDetails": "TAX aligations",
-"attachment": "ITR",
-"prosecutorInformation": 
-  {
-    "id" : "1234567890",
-    "type" : "Individual",
-    "CRNumber" : "3123456789",
-    "name" : "userOne",
-    "dob" : "02-02-1991",
-    "mobileNumber" : "500000001",
-    "representedProsecutor" : {
-                  "id" :  "9123456780",
-                  "dob" : "02-02-1991",
-                    "mobileNumber" : "512345678"
-                }
-  },
-
-"defendantInformation": {
-    "id" : "1234567890",
-    "type" :  "Individual",
-    "CRNumber" : "3124567890",
-    "name" : " string ",
-    "dob" : " string ",
-    "mobileNumber" : "500000002",
-                "representedProsecutor" : {
-                    "id" :  "8123456700",
-                    "dob" : "02-02-1991",
-                    "mobileNumber": "512345600"
-                }
-  }
-
-       
-      
-      
- }
-  
+   "caseID":1,
+   "caseDate":"02-09-2019",
+   "caseType":"FINANCE",
+   "courtName":"HIGH",
+   "judicialDepartmentName":"HEAD",
+   "regulationsOfTheProsecutor":"TAX",
+   "regulationsOfTheDefendant":"TAX",
+   "minutesOfMeetings":"TAX",
+   "caseSummery":"TAX Summery",
+   "caseDetails":"TAX aligations",
+   "attachment":"ITR",
+   "prosecutorInformation":{
+      "id":"1234567890",
+      "type":"Individual",
+      "CRNumber":"3123456789",
+      "name":"userOne",
+      "dob":"02-02-1991",
+      "mobileNumber":"500000001",
+      "representedProsecutor":{
+         "id":"9123456780",
+         "dob":"02-02-1991",
+         "mobileNumber":"512345678"
+      }
+   },
+   "defendantInformation":{
+      "id":"1234567890",
+      "type":"Individual",
+      "CRNumber":"3124567890",
+      "name":" string ",
+      "dob":" string ",
+      "mobileNumber":"500000002",
+      "representedProsecutor":{
+         "id":"8123456700",
+         "dob":"02-02-1991",
+         "mobileNumber":"512345600"
+      }
+   }
+}
